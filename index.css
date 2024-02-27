@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signup-container {
+    background-image: linear-gradient(to left top, #00C3F9 30%, #00E4E3 70%);
+    height: 100vh;
+    text-align: center;
+    overflow-x: auto;
+    /* Allow horizontal scrolling */
+}
+
+.signup-form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+}
+
+.signin-container {
+    background-image: linear-gradient(to left top, #00C3F9 30%, #00E4E3 70%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #3B4856;
+    width: 50%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right a {
+    margin-left: 10px;
+}
+
+.carousel {
+    white-space: nowrap;
+    font-size: 0;
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    scrollbar-width: none;
+    /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none;
+    /* Hide scrollbar for IE and Edge */
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.container {
+    display: inline-block;
+    width: calc(50% + 5px);
+    height: 100px;
+    margin-right: 10px;
+    background-color: grey;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+#heading {
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.dots-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+
+.anotherContainer {
+    background-color: #ffffff;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+#head {
+    margin-top: 3px;
+    color: white;
+}
+
+.para {
+    height: 40vh;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* Adjustments for smaller screens */
+    .signup-form,
+    .signin-form {
+        width: 80%;
+        /* Example adjustment */
+    }
+
+    .container {
+        width: 100%;
+        /* Adjust container width for mobile */
+    }
+
+    .anotherContainer {
+        width: 80%;
+        /* Adjust width for smaller screens */
+    }
+}
